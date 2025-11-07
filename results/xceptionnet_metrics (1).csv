@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC
+XceptionNet,0.853,0.8467583497053045,0.862,0.8543111992071358,0.937492

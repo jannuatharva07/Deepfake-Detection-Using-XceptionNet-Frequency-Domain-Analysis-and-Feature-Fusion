@@ -27,3 +27,21 @@ Each video was processed using OpenCV and MTCNN for:
 - Data normalization and resizing  
 
 The combined dataset was used for training and validation.
+
+## 🧩 Model Information
+
+### 🧠 Model Components
+1. **XceptionNet** – Used for spatial feature extraction from facial regions.  
+2. **Frequency Domain Analysis (FDA)** – Extracts frequency features to capture hidden artifacts in fake images.  
+3. **Feature Fusion** – Combines both spatial and frequency features for improved accuracy.  
+4. **Classifier** – Final dense layers for binary classification (Real / Fake).
+
+### 📁 Model Code Files
+- `src/xceptionnet.ipynb` → XceptionNet implementation  
+- `src/fda_feature_fusion.ipynb` → Frequency analysis and feature fusion  
+- `src/validation_model.ipynb` → Model evaluation and testing
+
+### 🧠 Trained Model
+- Trained model file: `models/deepfake_model.h5`  
+- [Download Link](https://drive.google.com/your_model_link)
+

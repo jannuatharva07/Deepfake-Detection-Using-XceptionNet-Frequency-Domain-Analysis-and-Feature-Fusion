@@ -1,4 +1,4 @@
-# Deepfake-Detection-Using-XceptionNet-Frequency-Domain-Analysis-and-Feature-Fusion
+# Deepfake-Detection-Using-XceptionNet-Frequency-Domain-Analysis-and-Feature-Fusion(In progress)
 Deepfake video detection model combining XceptionNet and Frequency Domain Analysis with feature fusion for improved authenticity verification.
 
 # 1. Introduction
